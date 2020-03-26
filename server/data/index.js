@@ -20,7 +20,7 @@ const bookB = {
     id: "b",
     title: "The Bitcoin Standard",
     duration: 120,
-    read: false,
+    read: true,
     imageUrl: 'https://m.media-amazon.com/images/I/51bXwP-iB4L._SL500_.jpg',
     author: 'Saifedean Ammous',
     description: `When a pseudonymous programmer introduced “a new electronic cash system that’s fully peer-to-peer, with no trusted third party” to a small Online mailing list in 2008, very few paid attention. Ten years later, and against all odds, this upstart autonomous decentralized software offers an unstoppable and globally-accessible hard money alternative to modern central banks. The Bitcoin Standard analyzes the historical context to the rise of bitcoin, the economic properties that have allowed it to grow quickly, and its likely economic, political, and social implications.`

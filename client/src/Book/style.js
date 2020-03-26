@@ -4,9 +4,11 @@ import { BrowserRouter as Router, Link } from "react-router-dom"
 
 export const Card = styled.div`
 box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+display:flex;
+justify-content: center;
   transition: 0.3s;
   width: 20%;
-  margin-left: 20px;
+  margin: 20px;
   &:hover {
       box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
   }

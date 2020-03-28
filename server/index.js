@@ -44,6 +44,10 @@ const bookType = new GraphQLObjectType({
             type: GraphQLBoolean,
             description: "have you watched the book"
         },
+        rating: {
+            type: GraphQLInt,
+            description: "rating of a book" 
+        },
         imageUrl: {
             type: GraphQLString,
             description: "cover of the book"
@@ -108,6 +112,10 @@ const mutationType = new GraphQLObjectType({
                 read: {
                     type: GraphQLBoolean,
                     description: "have you watched the book"
+                },
+                read: {
+                    type: GraphQLInt,
+                    description: "Rating of a book"
                 },
             },
             resolve: (_, args) => {

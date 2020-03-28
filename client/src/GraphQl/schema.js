@@ -25,6 +25,7 @@ export const BOOKS_BY_ID = gql`
       imageUrl
       author
       description
+      rating
     }
   }
 `;

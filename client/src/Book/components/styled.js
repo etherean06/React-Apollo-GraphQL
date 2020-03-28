@@ -20,7 +20,6 @@ width: 100%;
 `
 
 export const BookDivComponent = styled.div`
-background: rgba(0,0,0,.5);
 display: grid;
     grid-template-columns: 50% 40%;
     padding: 40px;

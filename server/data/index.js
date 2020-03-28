@@ -3,6 +3,7 @@ const bookA = {
     title: "Atomic Habits",
     duration: 180,
     read: true,
+    rating: 4,
     imageUrl: 'https://m.media-amazon.com/images/I/51eR2+XHi2L._SL500_.jpg',
     author: 'James Clear',
     description: `Random House presents the audiobook edition of Atomic Habits by James Clear, read by the author. 
@@ -21,6 +22,7 @@ const bookB = {
     title: "The Bitcoin Standard",
     duration: 120,
     read: true,
+    rating: 5,
     imageUrl: 'https://m.media-amazon.com/images/I/51bXwP-iB4L._SL500_.jpg',
     author: 'Saifedean Ammous',
     description: `When a pseudonymous programmer introduced “a new electronic cash system that’s fully peer-to-peer, with no trusted third party” to a small Online mailing list in 2008, very few paid attention. Ten years later, and against all odds, this upstart autonomous decentralized software offers an unstoppable and globally-accessible hard money alternative to modern central banks. The Bitcoin Standard analyzes the historical context to the rise of bitcoin, the economic properties that have allowed it to grow quickly, and its likely economic, political, and social implications.`
@@ -31,6 +33,7 @@ const bookC = {
     title: "The Subtle Art of Not Giving a F*ck",
     duration: 5,
     read: true,
+    rating: 3,
     imageUrl: 'https://m.media-amazon.com/images/I/51MT0MbpD7L._SL500_.jpg',
     author: 'Mark Manson',
     description: `For decades we've been told that positive thinking is the key to a happy, rich life. "F*ck positivity," Mark Manson says. "Let's be honest, shit is f*cked, and we have to live with it." In his wildly popular Internet blog, Manson doesn't sugarcoat or equivocate. He tells it like it is - a dose of raw, refreshing, honest truth that is sorely lacking today. The Subtle Art of Not Giving a F*ck is his antidote to the coddling, let's-all-feel-good mind-set that has infected modern society and spoiled a generation, rewarding them with gold medals just for showing up. `
@@ -41,6 +44,7 @@ const bookD = {
     title: "Think and Grow Rich",
     duration: 9,
     read: true,
+    rating: 5,
     imageUrl: 'https://m.media-amazon.com/images/I/61atv8Q26iL._SL500_.jpg',
     author: ' Napoleon Hill',
     description: `Think and Grow Rich is the number-one inspirational and motivational classic for individuals who are interested in furthering their lives and reaching their goals by learning from important figures in history. The text read in this audiobook is the original 1937 edition written by Napoleon Hill and inspired by Andrew Carnegie, and while it has often been reproduced, no updated version has ever been able to compete with the original. It has been used as a roadmap to achievement by countless individuals.`
